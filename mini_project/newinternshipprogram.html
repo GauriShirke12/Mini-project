@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: 
+                    url(https://img.freepik.com/premium-photo/hexagon-stage-purple-neon-light_33739-267.jpg?w=826);
+                
+                background-repeat:no-repeat;
+                
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        <form action="newintershipprogram.jsp">
+        <h1 style=" color: gold"> INTERNSHIP PROGRAMS</h1>
+        
+        <table border="0">
+            
+            <tbody>
+                <tr>
+                    <td style="color: white">Title:</td>
+                    <td><input type="text" name="title" value="" required/></td>
+                </tr>
+                <tr>
+                 <td style= "color: white">Duration</td>>
+                </tr>
+                <tr>
+                    <td style="color : white">Start Date:</td>
+                    <td><input type="date" name="sdate" value="" required/></td>
+                </tr>
+                <tr>
+                    <td style="color : white">End Date:</td>
+                    <td><input type="date" name="edate" value="" required/></td>
+                   
+                </tr>
+                <tr>
+                    <td style="color: white">technology:</td>
+                    <td><select name="technology">
+            <option value="java">java</option>
+            <option value="c++">c++</option>
+            <option value="python">python</option>
+            <option value="web development">web development</option>
+        </select></td>
+                    
+                </tr>
+                <tr>
+                    <td style="color: white"> Manager Details:</td>
+                    <td><textarea name="managerdetails" rows="4" cols="20" required>
+                        </textarea></td>
+                </tr>
+           
+                <tr>
+                    <td><input type="submit" value="submit" /></td>
+                    
+                </tr>
+            
+            </tbody>
+        </table>
+            
+                </form>
+
+        </center>
+    
+    </body>
+</html>
